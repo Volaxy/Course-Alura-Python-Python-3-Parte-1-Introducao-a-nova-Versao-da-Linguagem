@@ -1,8 +1,9 @@
 # Python 3 parte 1: Introdução à nova versão da linguagem
 
+
 Curso da Alura sobre a Parte 1 de Introdução ao Python
 
-## Objetivo Final
+## Objetivo Final &#x1F3AF;
 
 Criar um jogo de adivinhação, onde o computador irá escolher um número aleatório e o jogador terá que adivinhar esse número.
 
@@ -10,12 +11,12 @@ URL do curso -> [Python 3 parte 1: Introdução à nova versão da linguagem](ht
 
 ![Python 3 parte 1: Introdução à nova versão da linguagem](https://www.alura.com.br/assets/api/share/curso-python-3-introducao-a-nova-versao-da-linguagem.png)
 
-## Links Úteis
+## Links Úteis &#x1F517;
 * [Python](https://www.python.org/) - Site oficial do pyhton.
 * [Repl.it](https://replit.com/) - Site onde é possível programar com várias linguagens sem precisar instalar elas na máquina.
 * [PyCharm](https://www.jetbrains.com/pycharm/) - Site da IDE PyCharm muito utilizada para o desenvolvimento de Python.
 
-## Siglas
+## Siglas &#x1F5FA;
 * **REPL** - Sites onde se podem executar códigos de linguagem de de programação sem uma IDE específica ou instalar algum software.
 
 ## 01 - Introdução e Instalação do Python 3
