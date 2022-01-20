@@ -63,3 +63,9 @@ produto = numero1 * numero2
 print(produto)
 ```
 Resultado: `20202020202020202020`
+
+
+## 03 - Testando Valores
+
+### 01 - A Condição elif
+* O `elif` verifica se uma condição é verdadeira caso o `if` precedente seja falso.
