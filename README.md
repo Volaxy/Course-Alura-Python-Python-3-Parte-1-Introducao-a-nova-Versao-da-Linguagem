@@ -76,3 +76,74 @@ Resultado: `20202020202020202020`
 * Existem 2 formas de se formatar uma string dentro de um `print()`, isso se chama **interpolação**:
     * `print("Tentativa {} de {}".format(rodada, total_de_tentativas))`, onde cada `{}` será substituido pela variável presente no `.format()`.
     * `print(f"Round {round_number} of {attempts}".)`, onde o nome da variável será substituido pelo valor da mesma.
+
+## 05 - Iterando de Maneira Diferente
+
+### 01 - O Laço com For
+* O `for VARIABLE in range(START, STOP, STEP)` representa um loop onde:
+    * **`VARIABLE`** é o nome da variável que será declarada para receber o valor do `range`.
+    * **`range`** especifíca de qual valor deve iniciar e quando deve terminar.
+    * **`STEP`** que pode ser opcional, onde o valor é incrementado pelo `STEP`.
+    * O **`STOP`** é **exclusivo**, ou seja, o código é executado até **STOP - 1**.
+
+### 03 - Formatação de Strings
+* Para mudar a ordem de uma **interpolação**, basta digitar
+```
+print("Tentativa {1} de {0}".format(1, 3))
+
+Tentativa 3 de 1
+```
+Onde os números indicam a ordem em que deve ser colocada as variáveis.
+
+#### Formatação de Floats
+* Exemplo básico:
+```
+>>> print("R$ {}".format(1.59))
+R$ 1.59
+```
+
+* Para dizer que o número é um **float**:
+```
+>>> print("R$ {:f}".format(1.59))
+R$ 1.590000
+```
+
+* Para dizer quantas casas decimais o número deve ter:
+```
+>>> print("R$ {:.2f}".format(1.59))
+R$ 1.59
+```
+```
+>>> print("R$ {:.2f}".format(1.5))
+R$ 1.50
+```
+
+* Para deixar o **ponto** sempre na mesma coluna de caracteres:
+```
+>>> print("R$ {:7.2f}".format(1234.50))
+R$ 1234.50
+>>> print("R$ {:7.2f}".format(1.5))
+R$    1.50
+```
+Onde o "7" significa o total de números.
+
+* Para preencher os espaços em branco:
+```
+>>> print("R$ {:07.2f}".format(1.5))
+R$ 0001.50
+```
+
+#### Formatação de Inteiros
+* Exemplo básico:
+```
+>>> print("R$ {:07d}".format(4))
+R$ 0000004
+```
+
+* Formatando uma data:
+```
+>>> print("Data {:02d}/{:02d}".format(9, 4))
+Data 09/04
+>>> print("Data {:02d}/{:02d}".format(19, 11))
+Data 19/11
+```
