@@ -69,3 +69,10 @@ Resultado: `20202020202020202020`
 
 ### 01 - A Condição elif
 * O `elif` verifica se uma condição é verdadeira caso o `if` precedente seja falso.
+
+## 04 - A Sequência do Jogo
+
+### 02 - Formatação de Strings
+* Existem 2 formas de se formatar uma string dentro de um `print()`, isso se chama **interpolação**:
+    * `print("Tentativa {} de {}".format(rodada, total_de_tentativas))`, onde cada `{}` será substituido pela variável presente no `.format()`.
+    * `print(f"Round {round_number} of {attempts}".)`, onde o nome da variável será substituido pelo valor da mesma.
