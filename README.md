@@ -15,6 +15,7 @@ URL do curso -> [Python 3 parte 1: Introdução à nova versão da linguagem](ht
 * [Python](https://www.python.org/) - Site oficial do pyhton.
 * [Repl.it](https://replit.com/) - Site onde é possível programar com várias linguagens sem precisar instalar elas na máquina.
 * [PyCharm](https://www.jetbrains.com/pycharm/) - Site da IDE PyCharm muito utilizada para o desenvolvimento de Python.
+* [Funções Padrão](https://docs.python.org/3/library/functions.html) - Site das funções padrão do Python que estão disponíveis automaticamente no código.
 
 ## Siglas &#x1F5FA;
 * **REPL** - Sites onde se podem executar códigos de linguagem de de programação sem uma IDE específica ou instalar algum software.
@@ -157,3 +158,19 @@ Data 19/11
 
 ### 02 - Definindo um Intervalo para a Geração de Número Aleatórios
 * Para sortear um número inteiro entre um número e outro, usa-se `random.randrange(START, STOP)`
+
+## 07 - Nível e Pontuação
+
+### 02 - Definindo uma Pontuação para o Usuário
+* A função `abs()` retorna o valor absoluto do número passado como parâmetro, ou seja, retorna sempre um número positivo.
+
+## 08 - Organizando ainda Melhor o nosso Código
+
+### 01 - Importando Arquivos dentro de Outros
+* Ao importar um arquivo **Python**, o código presente no arquivo no momento da importação será executado instantâneamente.
+
+### 02 - Criando Funções para os nossos Jogos
+* Para definir uma função, usa-se a palavra chave `def FUNCTION_NAME():`.
+
+### 03 - Diferenciando um Arquivo executado de um Importado
+* A variável `__name__` é preenchida automaticamente pelo python quando o arquivo é chamado.
