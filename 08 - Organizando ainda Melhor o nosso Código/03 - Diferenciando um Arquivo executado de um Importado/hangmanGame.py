@@ -6,4 +6,6 @@ def play_hangman():
 
     print("Game Over")
 
-play_hangman()
+# The "__name__" is a variable when the python file is loaded, and from this variable, the code is executed
+if __name__ == "__main__":
+    play_hangman()

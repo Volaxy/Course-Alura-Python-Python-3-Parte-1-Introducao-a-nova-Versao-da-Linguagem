@@ -19,4 +19,6 @@ def chose_game():
         divination.play_divination()
 
 
-chose_game()
+# The "__name__" is a variable when the python file is loaded, and from this variable, the code is executed
+if __name__ == "__main__":
+    chose_game()
