@@ -147,3 +147,13 @@ Data 09/04
 >>> print("Data {:02d}/{:02d}".format(19, 11))
 Data 19/11
 ```
+
+## 06 - Gerando Números Aleatórios
+
+### 01 - Gerando e Arredondando um Número Aleatório
+* A função `random.random()` gera um número aleatório entre 0.0 e 1.0.
+* Para importar um módulo, basta digitar `>>> import random`.
+* Para arredondar um número, usa-se `round()`.
+
+### 02 - Definindo um Intervalo para a Geração de Número Aleatórios
+* Para sortear um número inteiro entre um número e outro, usa-se `random.randrange(START, STOP)`
