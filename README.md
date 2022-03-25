@@ -31,6 +31,8 @@ URL do curso -> [Python 3 parte 1: Introdução à nova versão da linguagem](ht
 * A função `type()` retorna o tipo do valor da variável
 
 ### 02 - Tipagem do Python
+No Python, a tipagem de variáveis é uma **Tipagem Dinâmica**.
+
 O Python utiliza por convenção o padrão ***Snake_Case*** para nomes de variáveis (ou identificadores).
 
 Um exemplo de variáveis em *Snake_Case* são:
@@ -87,7 +89,7 @@ Resultado: `20202020202020202020`
     * **`STEP`** que pode ser opcional, onde o valor é incrementado pelo `STEP`.
     * O **`STOP`** é **exclusivo**, ou seja, o código é executado até **STOP - 1**.
 
-### 03 - Formatação de Strings
+### Formatação de Strings
 * Para mudar a ordem de uma **interpolação**, basta digitar
 ```
 print("Tentativa {1} de {0}".format(1, 3))
@@ -161,7 +163,7 @@ Data 19/11
 
 ## 07 - Nível e Pontuação
 
-### 02 - Definindo uma Pontuação para o Usuário
+### 01 - Definindo uma Pontuação para o Usuário
 * A função `abs()` retorna o valor absoluto do número passado como parâmetro, ou seja, retorna sempre um número positivo.
 
 ## 08 - Organizando ainda Melhor o nosso Código
